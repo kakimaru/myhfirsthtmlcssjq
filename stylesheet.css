@@ -1,0 +1,267 @@
+@import url('https://googlefonts.github.io/japanese/#notosansjapanese');
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3','ヒラギノ明朝 ProN','Hiragino Mincho ProN','klee','明朝体' sans-serif;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからHP　*/
+
+header {
+  width:100%;
+  margin:0 auto;
+  height:90px;
+  border-bottom: 3px solid #dde7bd;
+  background-color:rgba(255,255,255,0.8) ;
+  position:fixed;
+  top:0px;
+  z-index: 10px;
+}
+
+.login {
+  display:block;
+  float:right;
+  color:#a6d36d;
+  background-color:rgba(236,252,252,0.5);
+  padding:32px;
+}
+
+.login:hover {
+  color:#00873C;
+}
+
+.header-logo {
+  font-size:30px;
+  padding:20px 40px;
+  float:left;
+  color:#94cc4c;
+  opacity:0.8;
+  cursor: pointer;
+}
+
+.header-list li {
+  display:inline-block;
+  padding:30px 10px;
+  color:#9ea6a6;
+  cursor: pointer;
+}
+
+.header-list li:hover {
+  color:black;
+}
+
+/*　モーダル */
+.login-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display:none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 1);
+  cursor: pointer;
+}
+
+#login-form {
+  width: 100%;
+}
+
+#login-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#login-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 100px;
+  background-color: #a4dccc;
+  border: none;
+  border-radius: 10px;
+  color: #5f5d60;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+/* 終わり　*/
+
+.top-wrapper {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/ticket-trade.emtg.jp/production/assets/img/artist/hiraganakeyaki/hiragana46_banner.jpg);
+  background-size:cover;
+  margin:90px auto;
+  height:800px;
+  border-bottom: 5px solid #dde7bd;
+}
+
+.container {
+  text-align: center;
+  font-family:"ヒラギノ明朝 ProN";
+  width:100%;
+}
+
+.container h1 {
+  font-weight:normal;
+  font-family:'klee';
+  font-size:100px;
+  color:#61aed6;
+}
+
+.container h2 {
+  font-size:20px;
+  font-family:'klee';
+  color:#9ea6a6;
+  padding-bottom:30px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.reservation {
+  color:white;
+  background-color:#c0e4f4;
+  border-radius: 40px;
+  padding:15px;
+  box-shadow:0 4px #9ea6a6;
+}
+
+.reservation:hover {
+  background-color:#61aed6;
+}
+
+.reservation:active {
+  position:relative;
+  top:4px;
+  box-shadow:none;
+}
+
+.kashi-wrapper p {
+  color:#dde7bd;
+  font-size:20px;
+  padding:15px;
+}
+
+.kashi-container {
+  font-family:'Sawarabi';
+  margin-top:30px;
+  margin-bottom:30px;
+  width:100%;
+
+}
+
+.kashi-container a {
+  display:block;
+  color:block;
+  font-size:20px;
+  font-family: serif;
+}
+
+.boku, .dome, .kizuna{
+  font-size:30px;
+  font-family: serif;
+}
+
+/* faq */
+.faq-wrapper {
+  background-color: #fcfcfa;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom: 80px;
+  color: #8a8e90;
+}
+
+.heading h2 {
+  padding:20px;
+  color:black;
+}
+
+#faq-list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-list-item {
+  margin:15px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:14px;
+}
+
+.answer {
+  font-size: 12px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display:none;
+}
+
+
+footer {
+  border-top:3px solid #dde7bd;
+  text-align: center;
+  color:#94cc4c;
+}
