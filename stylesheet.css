@@ -137,6 +137,7 @@ header {
 .top-wrapper {
   background-image: url(https://s3-ap-northeast-1.amazonaws.com/ticket-trade.emtg.jp/production/assets/img/artist/hiraganakeyaki/hiragana46_banner.jpg);
   background-size:cover;
+  background-position: center;
   margin:90px auto;
   height:800px;
   border-bottom: 5px solid #dde7bd;
